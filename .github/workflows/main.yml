@@ -23,7 +23,7 @@ jobs:
     - name: Install Dependencies
       run: |
         sudo apt update
-        sudo apt install -y tree p7zip git cmake ninja-build libcurl-dev
+        sudo apt install -y tree p7zip git cmake ninja-build libcurl4-openssl-dev
     
     - name: Download Android NDK
       uses: nttld/setup-ndk@v1
